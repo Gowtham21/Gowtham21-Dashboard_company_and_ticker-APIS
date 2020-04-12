@@ -1,0 +1,4 @@
+staticurl: 'https://newsapi.org/v2/top-headlines?q='  
+apiKey: '&apiKey=################################'
+static_ticker: 'https://api-v2.intrinio.com/companies/'
+static_api: '?api_key=################################'

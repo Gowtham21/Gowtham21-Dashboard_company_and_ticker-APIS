@@ -1,0 +1,13 @@
+pip install django
+
+#my current django version 3.0.4 and python version 3.8.1
+
+pip install newsapi-python
+
+pip install intrinio-sdk
+
+pip install requests
+
+pip install pyyaml
+
+

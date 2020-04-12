@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>latest news about {{ company }}</h1>
+        {% for Htmllist_view in company_data %}
+        <li>{{ Htmllist_view.title }}</li>
+        {%endfor%}
+        {{ no_company }}
+        <p></p>
+
+        <h2> Details about Ticker symbol</h2>
+        {{ ticker_data }}
+        {{ no_ticker }}
+        <p></p>
+        <button type="button" name="Back"><a href="{% url 'index'  %}">Back</a></button>
+
+
+      </div>
+    </div>
+
+  </body>
+</html>
